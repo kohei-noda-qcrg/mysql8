@@ -17,8 +17,12 @@ docker-compose up -d --build
 ### 接続確認
 
 ```
-docker exec -it 
+docker exec -it my-db /bin/bash
 
+```
+
+```
+mysql -uhoge -p hoge
 ```
 
 
