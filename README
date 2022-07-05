@@ -1,0 +1,24 @@
+# mysql 8.0をdocker で使う
+
+### docker-composeをcloneする。
+
+```
+git clone https://github.com/astrsk-hori/mysql8.git ./mysql8
+```
+
+### docker-compose で起動
+
+```
+cd mysql8
+
+docker-compose up -d --build
+```
+
+### 接続確認
+
+```
+docker exec -it 
+
+```
+
+
